@@ -56,5 +56,3 @@ https://clarasantosmf.github.io/BuserTech-D8-Personal-page/
 - UrlReduce https://github.com/ClaraSantosmf/UrlReduce
 
 - PythonBirds https://github.com/ClaraSantosmf/DevPro-Pythonbirds
-
--
