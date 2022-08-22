@@ -49,4 +49,12 @@ https://clarasantosmf.github.io/BuserTech-D6-Frontend/
 
 https://clarasantosmf.github.io/BuserTech-D8-Personal-page/
   
-  
+ # Projetos em Python  <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+ 
+ - CEPs do Correio https://github.com/ClaraSantosmf/django_correios_api
+
+- UrlReduce https://github.com/ClaraSantosmf/UrlReduce
+
+- PythonBirds https://github.com/ClaraSantosmf/DevPro-Pythonbirds
+
+-
