@@ -7,19 +7,30 @@
 - ⚖️ Formada em Direito pela UFPB, especialista em Direito Digital e LGPD e certificada internacional em SGSI. Sim, sempre em mente sobre Proteção da informação e fluxo seguro dos dados;
 - 💻 Hoje estou estudando Análise e Desenvolvimento de Sistema, 3º período;
 
-<div align="center">
+  <div align="center">
   <a href="https://github.com/clarasantosmf">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=clarasantosmf&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clarasantos&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="140em"  src="https://github-readme-stats.vercel.app/api?username=clarasantosmf&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clarasantosmf&layout=compact&langs_count=7&theme=dark"/>
 </div>
-
+  
+  
 ## Linguaguens
-<div style="display: inline_block">
-<img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  </div>
+<div style="display: inline_block"><br>
+  <img align="center" alt="HTML" height="60" width="70"  
+   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="60" width="70"  
+   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="JS" height="60" width="70"
+   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img align="center" alt="VueJS" height="60" width="70"
+   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" />
+  <img align="center" alt="Vuetify" height="60" width="70"
+   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuetify/vuetify-original.svg" /> 
+  <img align="center" alt="Python" height="60" width="70" 
+   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="Django" height="60" width="70" 
+   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />       
+</div>
   
   ## Me encontra! Faaala comigooo.
   
