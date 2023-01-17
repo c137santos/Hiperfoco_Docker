@@ -7,12 +7,6 @@
 - ⚖️ Formada em Direito pela UFPB, especialista em Direito Digital e LGPD e certificada internacional em SGSI. Sim, sempre em mente sobre Proteção da informação e fluxo seguro dos dados;
 - 💻 Hoje estou estudando Análise e Desenvolvimento de Sistema, 3º período;
 
-  <div align="center">
-  <a href="https://github.com/clarasantosmf">
-  <img height="140em"  src="https://github-readme-stats.vercel.app/api?username=clarasantosmf&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clarasantosmf&layout=compact&langs_count=7&theme=dark"/>
-</div>
-  
   
 ## Linguaguens
 <div style="display: inline_block"><br>
