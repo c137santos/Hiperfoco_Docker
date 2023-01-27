@@ -46,18 +46,21 @@
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   </div>
 
-- Primeiros projetos em CSS
+- Um dos projetos que mais gosto em CSS é [minha página](https://clarasantosmf.github.io/BuserTech-D8-Personal-page/)
 
-https://clarasantosmf.github.io/BuserTech-D6-Frontend/
+# Projetos com Vue
 
-- Um dos projetos que mais gosto é minha página
+<div style="display: inline_block">
+ <img align="center" alt="VueJS" height="30" width="40"
+   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" /> </div>
 
-https://clarasantosmf.github.io/BuserTech-D8-Personal-page/
+
+[Game of Life](https://clarasantosmf.github.io/saw/)
   
  # Projetos em Python  <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
  
- - CEPs do Correio https://github.com/ClaraSantosmf/django_correios_api
+ -[CEPs do Correio](https://github.com/ClaraSantosmf/django_correios_api)
 
-- UrlReduce https://github.com/ClaraSantosmf/UrlReduce
+- [UrlReduce](https://github.com/ClaraSantosmf/UrlReduce)
 
-- PythonBirds https://github.com/ClaraSantosmf/DevPro-Pythonbirds
+- [PythonBirds](https://github.com/ClaraSantosmf/DevPro-Pythonbirds)
