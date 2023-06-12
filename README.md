@@ -1,11 +1,11 @@
 ## Oiii gente, eu sou a Clara Santos! 👋
 
-- 🔭 Atualmente estou como estagiária no programa da BuserTech desde abrild e 2022;
-- 🌱 São várias mudanças constantes, mas atualmente estudando Python, Django, Javascript, Vue.js, Docker.;
+- 🔭 Atualmente estou no programa da BuserTech desde abril de 2022;
+- 🌱 São várias mudanças constantes, mas atualmente estudando Python, Django, Javascript, Vue.js, Docker;
 - 🤔 Eu procuro mais constribuir com tarefas de backend e testes;
-- ⚡ Um fato engraçado sobre mim é que tenho TDAH, e fiz disso uma oportunidade escrever loucamente sobre meu aprendizado. Eu escrevo em plataformas como o Medium, BlogBuser, Github repositórios tutoriais;
+- ⚡ Um fato engraçado sobre mim é que tenho TDAH, fiz disso uma oportunidade escrever loucamente sobre meu aprendizado. Eu escrevo em plataformas como o Medium, BlogBuser, Github repositórios tutoriais;
 - ⚖️ Formada em Direito pela UFPB, especialista em Direito Digital e LGPD e certificada internacional em SGSI. Sim, sempre em mente sobre Proteção da informação e fluxo seguro dos dados;
-- 💻 Hoje estou estudando Análise e Desenvolvimento de Sistema, 3º período;
+- 💻 Hoje estou estudando Análise e Desenvolvimento de Sistema, 6º período;
 
   
 ## Linguaguens
