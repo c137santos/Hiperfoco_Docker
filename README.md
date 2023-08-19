@@ -8,7 +8,7 @@
 - 💻 Hoje estou estudando Análise e Desenvolvimento de Sistema, 6º período;
 
   
-## Linguaguens
+## Linguagens
 <div style="display: inline_block"><br>
   <img align="center" alt="HTML" height="60" width="70"  
    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
