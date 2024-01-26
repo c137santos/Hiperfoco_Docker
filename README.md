@@ -8,7 +8,7 @@
 - ⚖️ Formada em Direito pela UFPB, especialista em Direito Digital e LGPD e certificada internacional em SGSI. Sim, sempre em mente sobre Proteção da informação e fluxo seguro dos dados;
 
   
-## Linguagens
+## Linguagens e frameworks
 <div style="display: inline_block"><br>
   <img align="center" alt="HTML" height="60" width="70"  
    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -23,9 +23,11 @@
   <img align="center" alt="Python" height="60" width="70" 
    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="Django" height="60" width="70" 
-   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />       
+   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />   
+  <img align="center" alt="Flask" height="60" width="70" 
+   src="https://www.svgrepo.com/show/473611/flask.svg" /> 
 </div>
-  
+
   ## Me encontra! Faaala comigooo.
   
   <div> 
@@ -53,19 +55,19 @@
 
 - Um dos projetos que mais gosto em CSS é [minha página](https://clarasantosmf.github.io/BuserTech-D8-Personal-page/)
 
-# Projetos com Vue
+# Projetos com front  Vue e JS
 
 <div style="display: inline_block">
  <img align="center" alt="VueJS" height="30" width="40"
    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg" /> </div>
-
-
-[Game of Life](https://clarasantosmf.github.io/saw/)
+ - [Wordle](https://github.com/c137santos/wordle-JS-CSS-HTML)
+ - [Game of Life](https://clarasantosmf.github.io/saw/)
+ 
   
  # Projetos em Python  <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
- 
+ - [API Star Wars](https://github.com/c137santos/starwars_api)
+ - [API Mata-Mata: torneio](https://github.com/c137santos/fightfight)
  - [CEPs do Correio](https://github.com/ClaraSantosmf/django_correios_api)
+ - [UrlReduce](https://github.com/ClaraSantosmf/UrlReduce)
+ - [PythonBirds](https://github.com/ClaraSantosmf/DevPro-Pythonbirds)
 
-- [UrlReduce](https://github.com/ClaraSantosmf/UrlReduce)
-
-- [PythonBirds](https://github.com/ClaraSantosmf/DevPro-Pythonbirds)
