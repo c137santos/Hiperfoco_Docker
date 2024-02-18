@@ -71,6 +71,35 @@ Então todas as camadas abaixo da read and writter são identicas, mas a camada 
 
 **Exemplo prático**: caso você crie dois 'runs', um para realizar o apt-get install do requirements, e outro para limpar o cache, o da limpeza do cache não funcionará, porque apenas a última camada é read and writter, impossível de alterar camada anterior que é apenas only read.
 
-"A camada base (ready-only), a última camada da lista (de cima para baixo), é a camada de inicialização, é onde fica o kernel e o setor de inicialização bootfs, que é bastante similar ao sistema de inicialização raiz / do Linux/Unix. Nessa parte é onde temos toda a criação dos cgroups para fazer todo o controle de processos, namespace para blindar o container." [Álvares, Bernard. "As camadas que compõe uma docker image](https://medium.com/@bernard.luz/as-camadas-que-comp%C3%B5e-uma-docker-image-f77cfa7d04ce)
+Escrever até mesmo um simples "a" em arquivos grandes pode causar certa degradação da performance, já que precisa ser copiado completamente para a 1ª camada.A partir disso surgiram novas soluções a fim de minimar o problema da cópia.
+
+
+"A camada base (ready-only), a última camada da lista (de cima para baixo), é a camada de inicialização, é onde fica o kernel e o setor de inicialização bootfs, que é bastante similar ao sistema de inicialização raiz / do Linux/Unix. Nessa parte é onde temos toda a criação dos cgroups para fazer todo o controle de processos, namespace para blindar o container." [Álvares, Bernard, 2020. "As camadas que compõe uma docker image](https://medium.com/@bernard.luz/as-camadas-que-comp%C3%B5e-uma-docker-image-f77cfa7d04ce)
+
+
 
 Lembre-se, uma imagem dá luz a vários conteiner, ou seja, é a mesma imagem e a mesma informação, tanto que, 10 imagens docker com de 50GB ocupará apenas 50GB ao invés de meio Terabyte. Apenas é adicionado as informações que a última camada de read and writter, como os logs. 
+
+## Namespace, cgroups e netfilter.
+
+![alt text](./imgs/netfilter.jpeg)
+
+**Namespace**:
+Cada conteiner tem sua árvore de processos que não interfere na execução do outro. Além do PID namespace e Netnamespace, há outros namespaces, como o Mount namespace para isolar pontos de montagem, o UTS namespace para isolamento de hostname. 
+
+" PID namespace: como o nome sugere, é este namespace que faz o isolamento dos processos permitindo que os containers tenham seus próprios PID (como um aliás do PID original);
+Net namespace: este é o namespace responsável por permitir que cada container possua sua própria interface de rede e portas;
+MNT namespace: permite que cada container tenha seu sistema de arquivos;
+IPC namespace: garante o isolamento dos sistemas de arquivos criados pelo MNT namespace;
+User namespace: garante o isolamento dos usuários em cada container;
+UTS namespace: responsável pelo isolamento de nome de domínios, hostname entre outros.
+
+Os containers possuem suas próprias árvores de processos, interface de rede, portas, ip, sistema de arquivos, usuários, hostname entre outros. Tudo isso é provido pelos namespaces que promovem um isolamento destas características de forma que nenhum container pode/consegue interferir em outro. Desta forma, na minha opinião está é a melhor forma de entender melhor os containers: são grupos de processos isolados através dos namespaces de forma que o host conhece todos os processos de todos os containers, mas os containers enxergam/conhece apenas os seus processos. Isso faz com que os containers sejam isolados uns dos outros sem que se interfiram." [Andrade, Flávio, 2018. "Entendendo os containers do Docker"](https://medium.com/@flaviochess/entendendo-os-containers-do-docker-a4a481007885)
+
+**Cgroups**:
+
+Control Groups, são responsáveis por limitar, controlar recursos e por medir, contabilizar e isolar recursos de um grupo de processos. Eles são utilizados para limitar não apenas CPU e memória, mas também outros recursos como I/O de disco, largura de banda de rede, entre outros.
+
+**Netfilter**:
+
+Framework no kernel do Linux para manipulação de pacotes de rede e filtragem. No contexto de containers, o Docker utiliza o Netfilter para realizar a tradução de endereços (NAT) e permitir a comunicação entre o container e a rede externa. É importante destacar que o Netfilter não está diretamente relacionado à comunicação entre containers dentro do mesmo host. É mais comum referir-se ao serviço que gerencia as regras do Netfilter como iptables.
