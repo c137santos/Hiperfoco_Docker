@@ -130,3 +130,13 @@ Realizei primeiro [esses passo indicados](https://docs.docker.com/engine/install
 sudo apt remove podman
 sudo apt autoclean && sudo apt autoremove
 ```
+### Comandos básicos
+
+[Comandos Básicos Docker](./comandosbasicosdocker.md)
+
+1. Attach vs Exec
+2. conceito de entrepoint
+3. docker conteiner ls, ls-a e ps -ef.
+
+
+![alt text](./imgs/entrepoint.jpeg)
