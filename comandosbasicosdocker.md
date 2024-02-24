@@ -1,4 +1,4 @@
-## Comandos básicos
+# Comandos básicos do Docker
 ![alt text](./imgs/entrepoint.jpeg)
 
 Primeiro, saiba que o Docker Client é a interface que você usa para interagir com o Docker. Permite executar comandos como docker run, docker build, docker ps e docker images. Já o Docker Daemon é o serviço que faz o trabalho pesado de gerenciar containers. Responsável por baixar imagens, criar containers, iniciar e parar containers, gerenciar redes e volumes, e executa os comandos recebidos do docker client.
@@ -35,7 +35,7 @@ O docker costuma matar conteiner quando não há mais o processo principal rodan
 Para sair sem matar o bash e etc, saia com `ctrl + pq`
 
 
-Tecnicamente, para voltar para dentro de um container rodando, você realiza o attach.
+Tecnicamente, para voltar para dentro de um container rodando, você realiza o attach. Isso vai te conectar diretamente no processo do conteiner.
 
 ```sh
 docker container attach <id containers>
@@ -61,3 +61,22 @@ O que é rodar como deamon? Não trava o seu terminal, você roda com -d, sem it
 docker container run -d nginx
 ```
 
+Se quiser parar(stop), iniciar(start) e reiniciar (restart).
+
+```sh
+docker container start <idconteiner> 
+docker container stop <idconteiner> 
+docker container restart <idconteiner> 
+docker container pause <idconteiner> 
+```
+
+Todo comando docker pode ser executado junto com o inspect, útil para ver, por exemplo, variáveis de ambiente (muito útil para saber como esse conteiner está configurado), também existe o Networks, que mostra como o conteiner está conectado com a rede. 
+
+```sh
+docker container inspect <idconteiner>
+```
+
+Comando para supervisionar os logs do conteiner.
+```sh
+docker container logs -f <idconteiner>
+```
