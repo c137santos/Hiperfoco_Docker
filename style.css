@@ -1,0 +1,17 @@
+.imagem-container {
+text-align: center;
+}
+  
+.imagem-container img {
+    width: 40%;
+    height: auto;
+    max-width: 50%;
+}
+  
+.imagem-container .lokitimeline {
+height: 30rem;
+}
+
+.imagem-container .commitpertubado {
+width: 100%;
+}
