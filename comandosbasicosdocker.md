@@ -80,3 +80,43 @@ Comando para supervisionar os logs do conteiner.
 ```sh
 docker container logs -f <idconteiner>
 ```
+
+Mas o quanto o cara ta usando de recurso? 
+
+```sh
+docker container stats <idconteiner>
+```
+
+![alt text](./imgs/comandostats.png)
+
+Temos o uso de CPU, de uso de memória (MEM USAGE/LIMIT), também tem o uso de memória em porcentagem (MEM%), NET I/O, BLOCK I/O, PIDS (processos em execução). 
+
+É possível utilizar um programinha chamado stress para testar o uso de recursos do conteiner. 
+
+```sh
+docker container exec -it <idconteiner> bash
+$ apt-get update
+$ apt-get install -y stress
+$ stress --cpu 1 --vm-bytes 128M --vm 1
+```
+![alt text](./imgs/instalandostresse.png)
+
+## Limitando Recursos
+
+Limitar recursos de uso do container é importante. O parâmetro do stress de 128M é uma limitação para o uso de memória. Não deve passar disso. 
+Para limitar o CPU, use '-- cpus'. Onde o parâmetro é o número de núcleos disponível para uso. Cores. 
+Por exemplo, --cpus 0.5 significa metáde de um core.
+
+```sh
+stress --cpu 1 --vm-bytes 128M ---cpus 0.5 --vm 1
+
+```
+Agora com inspect, o limite de CPU está em 0.5. 
+
+![alt text](./imgs/image-4.png)
+
+É possível atualizar o container com o comando update para definir o limite do uso de core. 
+
+```sh
+docker container update --cpus 0.7 <idconteiner>
+```
