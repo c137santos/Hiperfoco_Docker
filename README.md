@@ -58,6 +58,8 @@ Conteiner não é Docker. Porém o Docker foi aquele populou essa forma de isola
 1. Attach vs Exec
 2. Conceito de Entrepoint
 3. Docker conteiner ls, ls-a e ps -ef.
+4. Supervisionar e limitar recursos do container
 
-
-![alt text](./imgs/entrepoint.jpeg)
+<div class="imagem-container">
+  <img src="./imgs/entrepoint.jpeg">
+</div>
